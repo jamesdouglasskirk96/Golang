@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 	"github.com/jamesdouglasskirk96/Golang/Project4Testing/variables"
-	"net/http"
-	"io/ioutil"
+	// "net/http"
+	// "io/ioutil"
 )
 
 func sum (x int) int {
@@ -24,8 +24,8 @@ func main() {
 	fmt.Println(increment())
 	fmt.Println(increment())
 
-	res, _ := http.Get("http://www.geekwiseacademy.com/")
-	page, _ := ioutil.ReadAll(res.Body)
-	res.Body.Close()
-	fmt.Printf("%s", page)
+	// res, _ := http.Get("http://www.geekwiseacademy.com/")
+	// page, _ := ioutil.ReadAll(res.Body)
+	// res.Body.Close()
+	// fmt.Printf("%s", page)
 }
