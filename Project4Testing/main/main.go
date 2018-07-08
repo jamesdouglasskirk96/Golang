@@ -10,4 +10,5 @@ func main() {
 	fmt.Println("Hello", name);
 
 	// Testing git commits
+	// Test 2
 }
